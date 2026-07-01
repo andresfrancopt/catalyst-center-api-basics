@@ -1,0 +1,11 @@
+# Core dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Catalyst Center SDK (for pythonsdkdemo.py)
+catalystcentersdk>=2.5.0
+
+# Jupyter Notebook (optional - for interactive tutorial)
+jupyter>=1.0.0
+ipykernel>=6.20.0
+notebook>=7.0.0
