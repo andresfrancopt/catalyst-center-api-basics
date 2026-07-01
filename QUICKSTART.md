@@ -15,8 +15,8 @@ Files are prefixed to make the approach immediately clear:
 
 ```bash
 # 1. Clone and enter directory
-git clone <your-repo-url>
-cd catalyst-center-api-examples
+git clone https://github.com/andresfrancopt/catalyst-center-api-basics.git
+cd catalyst-center-api-basics
 
 # 2. Create virtual environment
 python3 -m venv venv

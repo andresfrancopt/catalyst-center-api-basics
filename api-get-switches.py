@@ -8,6 +8,26 @@ and displays all devices in the 'Switches and Hubs' family.
 Dependencies: requests, python-dotenv
 Configuration: set CATALYST_USERNAME, CATALYST_PASSWORD, CATALYST_BASE_URL,
                and CATALYST_VERSION in a .env file.
+
+-------------------------------------------------------------------------------
+DISCLAIMER
+-------------------------------------------------------------------------------
+This script is intended for educational and demonstration purposes only.
+It is provided "as is" without warranty of any kind, express or implied.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This code has not been validated for production use. Test thoroughly in a
+lab environment before using in any production or critical system. The author
+assumes no responsibility for network outages, data loss, or any other issues
+resulting from the use of this script.
+-------------------------------------------------------------------------------
 """
 
 import os

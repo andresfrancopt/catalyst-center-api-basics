@@ -4,6 +4,26 @@ Catalyst Center SDK — Pagination Demo
 Shows how to use offset and limit with the Catalyst Center Python SDK
 (catalystcentersdk) to paginate through network devices.
 
+-------------------------------------------------------------------------------
+DISCLAIMER
+-------------------------------------------------------------------------------
+This script is intended for educational and demonstration purposes only.
+It is provided "as is" without warranty of any kind, express or implied.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This code has not been validated for production use. Test thoroughly in a
+lab environment before using in any production or critical system. The author
+assumes no responsibility for network outages, data loss, or any other issues
+resulting from the use of this script.
+-------------------------------------------------------------------------------
+
 Unlike raw REST calls (requests library), the SDK wraps the same
 /dna/intent/api/v1/network-device endpoint but gives you:
   • Python attribute access on responses  (device.hostname, device.upTime)

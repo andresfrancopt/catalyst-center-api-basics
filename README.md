@@ -59,8 +59,8 @@ Files are prefixed so the approach is clear at a glance:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/catalyst-center-api-examples.git
-cd catalyst-center-api-examples
+git clone https://github.com/andresfrancopt/catalyst-center-api-basics.git
+cd catalyst-center-api-basics
 ```
 
 ### 2. Create a Virtual Environment
@@ -374,7 +374,7 @@ Contributions are welcome! Here are some ideas:
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+5. Open a Pull Request on [github.com/andresfrancopt/catalyst-center-api-basics](https://github.com/andresfrancopt/catalyst-center-api-basics)
 
 ---
 
